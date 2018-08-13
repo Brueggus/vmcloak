@@ -47,7 +47,8 @@ setup(
         "alembic>=1.0.7",
 	"pefile",
 	"cryptography",
-	"pyopenssl"
+	"pyopenssl",
+        "lxml"
     ],
     extras_require={
         ":sys_platform == 'win32'": [
