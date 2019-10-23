@@ -45,6 +45,9 @@ setup(
         "pyyaml>=3.12",
         "sqlalchemy>=1.3.3",
         "alembic>=1.0.7",
+	"pefile",
+	"cryptography",
+	"pyopenssl"
     ],
     extras_require={
         ":sys_platform == 'win32'": [
